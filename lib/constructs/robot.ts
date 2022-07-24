@@ -76,7 +76,7 @@ export class AccountRobot extends construct.Construct {
 	// we need to give access to account_factory_portfolio.. This needs to be a look
 
 	const account_factory_portfoilo = sc.Portfolio.fromPortfolioArn(this, 'accountfactoryportfolio',
-		'arn:aws:catalog:ap-southeast-2:454817366727:portfolio/port-c7od7gkls7sva'
+		'arn:aws:catalog:ap-southeast-2:4xxxxxxx7:portfolio/port-c7od7gkls7sva'
 	);
 	
 
